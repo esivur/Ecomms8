@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Ecom</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/newlogo.png" width="175px">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <img src="images/shopping-cart-icon-30.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+           <h1> The real fun happens <br> After Dark  </h1>
+           <a href="" class="btn">Explore Now</a>
+        </div>    
+        <div class="col-2">
+            <img src="images/IMG_1584.mov">
+        
+        </div>
+    </div>
+</div>
+</div>
+  
+<!--------FEATURED ---------------------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/her.png">
+            </div>
+            <div class="col-3">
+                <img src="images/herPURP.png">
+            </div>
+            <div class="col-3">
+                <img src="images/herRED.png">
+            </div>
+        </div>
+    </div>   
+</div>
+<!--------FEATURED ---------------------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/her.png">
+            <h4>Her</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/rider w color.png">
+            <h4>R</h4>
+            <p>$5.55</p>
+        </div>
+        <div class="col-4">
+            <img src="images/fubroll.png">
+            <h4>F</h4>
+            <p>$7.77</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/JJ.png">
+            <h4>JJ</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/lovers.png">
+            <h4>L-Overs</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/wknd.png">
+            <h4> Anastasia </h4>
+            <p>$7.77</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/herRED.png">
+            <h4>Her</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/herPURP.png">
+            <h4>Her</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/floaty.png">
+            <h4>Saber</h4>
+            <p>$7.77</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/FORGET.png">
+            <h4>Forget</h4>
+            <p>$6.66</p>
+        </div>
+        <div class="col-4">
+            <img src="images/reii.png">
+            <h4>Rei</h4>
+            <p>$5.55</p>
+        </div>
+        <div class="col-4">
+            <img src="images/assuka.png">
+            <h4>Asuka</h4>
+            <p>$5.55</p>
+        </div>
+    </div>
+</div>
+<!--------FOOTER-->
+<footer>
+    <h3 class=footerfont>Dont be shy, Give us a Follow!</h3>
+    <figure class="icons">
+      <div class="icon-container">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="facebook-logo"></a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="twitter-logo"></a>
+        <a href="https://www.instagram.com/af_dk" target="_blank" rel="noopener"><img src="https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png" alt="insta-logo"></a>
+      </div>
+    </figure>
+  </footer>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            (MenuItems.style.maxHeight == "200px")
+        }
+        else 
+        {
+            (MenuItems.style.maxHeight == "0px")
+        }
+    }
+</script>
+
+
+    </body>
+</html>
